@@ -1,0 +1,71 @@
+{
+  "name": "yaku-convertion-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@project-serum/anchor": "^0.25.0",
+    "@solana/spl-token": "^0.3.2",
+    "@solana/wallet-adapter-base": "^0.9.15",
+    "@solana/wallet-adapter-react": "^0.15.17",
+    "@solana/wallet-adapter-react-ui": "^0.9.15",
+    "@solana/wallet-adapter-wallets": "^0.18.4",
+    "@solana/web3.js": "^1.53.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.49",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-helmet": "^6.1.5",
+    "react": "^18.2.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.8",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "chrome >= 67",
+      "edge >= 79",
+      "firefox >= 68",
+      "opera >= 54",
+      "safari >= 14"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "autoprefixer": "^10.4.8",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "postcss": "^8.4.16",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "tailwindcss": "^3.1.8",
+    "url": "^0.11.0"
+  }
+}
